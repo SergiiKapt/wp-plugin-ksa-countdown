@@ -1,0 +1,51 @@
+.dynamic {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.dynamic__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*padding-left: 25px;*/
+    margin-left: 20px;
+}
+
+.dynamic__item.number_item {
+    width: 30px;
+}
+
+.dynamic__item label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dynamic__item .count {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+}
+
+.dynamic__item .title {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+}
+
+.delete__count {
+    margin-left: 30px;
+    height: 30px;
+    font-size: 30px;
+    line-height: 0.5em;
+    color: #888;
+    transition: color .2s;
+    padding: 5px;
+}
+
+.delete__count:hover {
+    color: #f00;
+    cursor: pointer
+}
